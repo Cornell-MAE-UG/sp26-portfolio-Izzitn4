@@ -38,3 +38,8 @@ Now our necessary mechanical advantage would now be 1.484 makeing this nutcracke
 
 This design is incredibly small, powerful, and to some degree unnecessary. It is possible to have a less powerful linear actuator, but it is nice to have such a fast machine. As for its actual usabilty it must be connected to a base that not only holds the actuator but the nutcracker itself, making it more reasonable to just use the handheld.
 
+
+
+
+Information on Macadamia nuts found at: 
+Schrauf, C., Huber, L. & Visalberghi, E. Do capuchin monkeys use weight to select hammer tools?. Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2

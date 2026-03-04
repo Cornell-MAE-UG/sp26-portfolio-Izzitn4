@@ -5,66 +5,44 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Izzah Nishad Job Resume.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [itn4@cornell.edu](mailto:itn4@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [itn4@cornell.edu](mailto:itn4@cornell.edu) | | | **Phone:** +203 503 7407
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in design. Passionate about robotics and space and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.564/4.0 | Graduation: May, 2029
 
-- **[High School Name]**  
+- **[Danbury High school ]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [June, 2025]
 
 ---
 
 #### Skills
 - **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
----
-
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
+- **Programming:** Python, Java  
+- **Tools:** 3D Printing, Tormach
 
 ---
 
 #### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- Vex Robotics World Championship Finalist, 2025 
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Cornell Baja Sae  
+- Volunteer for Danbury Grassroots Academy 
 
 ---
 
