@@ -1,0 +1,50 @@
+---
+layout: project
+title: NutCracker Deeper Analysis
+description: Statics Design Project on a nutcracker able to crack a macadamia nut
+technologies: None
+image: /assets/images/Lets make a nutcracker.jpg
+---
+
+As part of my statics work, I was instructed to design nutcrackers intended to be handheld, one designed to crack nuts using just human strength, and one designed to use a linear actuator. 
+Using the typical design of a handheld metal nutcracker, there is a two-part system connected by a pin at the top and two sections where a nut can be placed, one with a larger hole and one with a smaller. 
+
+However, that build was oversimplified. It was assumed that the nutcracker's handles would remain rigid despite the loads applied to the contraption. Now it is important to work out the rest of the details of the design
+
+These details would be:
+-locations of max elastic deformation
+-a handle design that allows for a vertical deflection below 2% of its length
+-a design that is mass efficient. 
+
+Constraints and Input parameters:
+The typical hardness of a macadamia nut is 222.18kg (+/-) 18.54kg and the average diameter is 25mm.
+Here is the previous design:
+![Nutcracker design analysis]({{ "/assets/images/Powered_Nutcracker.png" | relative_url }}){: .inline-image-r style="width: 250px"}
+
+Design parameters 
+L = 44.53mm
+a = 30mm
+Force of nut = 2178.9N
+
+Material and cross-section constraints:
+Deflection Limit** | $0.02 \times 44.53 \text{ mm}$ | $\le 0.89 \text{ mm}$ |
+Mass efficiency
+
+When it comes to the elastic deformation in the nutcracker, based on the loads, we can assume the max would be in the top lever. To simplify the problem for calculations, we can think of the top lever as a cantilever due to the bolt acting as a fixed support against rotation once the nut resists. 
+The loading is as shown:
+![Nutcracker design analysis]({{ "/assets/images/elastic load in nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 250px"}
+Based on these assumptions, we can say that the max deformation is likely to be at the free end of the lever because the actuator's force will likely be stronger and cause a greater vertical displacement. 
+
+If we were looking to calculate this, we must use superposition, which would mean combining the deformations from both major loads. 
+$$\delta_{total} = \frac{F_{act} L^3}{3EI} - \frac{F_{nut} a^2}{6EI}(3L - a)$$
+
+
+
+
+This design is incredibly small, powerful, and to some degree unnecessary. It is possible to have a less powerful linear actuator, but it is nice to have such a fast machine. As for its actual usabilty it must be connected to a base that not only holds the actuator but the nutcracker itself, making it more reasonable to just use the handheld.
+
+
+
+
+Information on Macadamia nuts found at: 
+Schrauf, C., Huber, L. & Visalberghi, E. Do capuchin monkeys use weight to select hammer tools?. Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2
