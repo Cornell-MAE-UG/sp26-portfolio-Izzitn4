@@ -42,8 +42,15 @@ $$\delta_{total} = \frac{F_{act} L^3}{3EI} - \frac{F_{nut} a^2}{6EI}(3L - a)$$
 _______________________________________________________________________________________________________________________________________________________________________________________________
 
 Material selection:
-This one is a tough decision
+There are two major things to consider when it comes to material for the nutcracker: the material type and shape.
 
+Type: We need a mass-efficient design, meaning that our material needs to have a high stiffness-to-weight ratio. This leaves us with two common metals, aluminum(6061) and steel(AISI 1018).
+Aluminum is lightweight but more malleable, while steel is a lot heavier but a lot more stiff and better to take on loads. For our case, we want something that remains lightweight due to our handheld goal, as well as a small force not need excessive rigidity.
+This makes our best choice, aluminum
+
+Shape: The most mass-efficient shape would be an I beam or a rectangular tube. Some other options would include a solid rectangular lever or a U-channel, which are the two most often seen for nutcrackers. The choice behind most nutcrackers here, being solid or the U-channel, is human usability.
+Those choices are the most reasonable when only thinking of using hands to push down. If the design were handheld, I would personally choose the U-channel because of its nice grip, light weight, and less harm if the load is off-center. 
+This design uses a linear actuator, which widens our selection choices to include the more efficient designs, allowing us to go for a shape that is the most efficient, the I-beam. 
 
 
 Information on Macadamia nuts found at: 
