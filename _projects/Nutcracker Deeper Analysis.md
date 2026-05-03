@@ -37,12 +37,9 @@ Material and cross-section constraints:
 - Deflection limit: $\delta_{\text{limit}} = 0.02 \times 44.53\ \text{mm} = 0.89\ \text{mm}$
 - Mass efficiency
 
+---
 
-____________________________________________________________________________________________________________________________________
-
-
-
-When it comes to the elastic deformation in the nutcracker, based on the loads, we can assume the max would be in the top lever. To simplify the problem for calculations, we can think of the top lever as a cantilever due to the bolt acting as a fixed support against rotation once the nut resists. 
+When it comes to the elastic deformation in the nutcracker, based on the loads, we can assume the max would be in the top lever. To simplify the problem for calculations, we can think of the top lever as a cantilever due to the bolt acting as a fixed support against rotation once the nut resists.
 The loading is as shown:
 ![Nutcracker design analysis]({{ "/assets/images/elastic load in nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 250px"}
 Based on these assumptions, we can say that the max deformation is likely to be at the free end of the lever because the actuator's force will likely be stronger and cause a greater vertical displacement. 
@@ -79,7 +76,7 @@ Shape: The most mass-efficient shape would be an I beam or a rectangular tube. S
 Those choices are the most reasonable when only thinking of using hands to push down. If the design were handheld, I would personally choose the U-channel because of its nice grip, light weight, and less harm if the load is off-center. 
 This design uses a linear actuator, which widens our selection choices to include the more efficient designs, allowing us to go for a shape that is the most efficient, the I-beam. 
 
-__________________________________________________________________________________________________________________________________
+---
 
 Realistic design:
 In order to make this design functional we need to think about combining a lot of different ideas. The final shape of the cross section would be an I beam since it concentrated material in the flanges at the top and bottom in order to resist bending. 
@@ -95,6 +92,9 @@ In real life the whole beam cannot be this shape reasonably. This means that the
 Assuming moment balance, the Force of the linear actuator at that point is about 1467N which gives us a target moment of inertia of 220mm^4 to stop the tip from dipping below .89mm
 
 ![Nutcracker design analysis]({{ "/assets/images/final_crosssection_design_nutcracker.jpg" | relative_url }}){: style="width: 100%; display: block; margin: 20px auto;"}
+
+
+
 
 
 
