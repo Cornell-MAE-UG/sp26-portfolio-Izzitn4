@@ -94,7 +94,10 @@ Assuming moment balance, the Force of the linear actuator at that point is about
 ![Nutcracker design analysis]({{ "/assets/images/final_crosssection_design_nutcracker.jpg" | relative_url }}){: style="width: 100%; display: block; margin: 20px auto;"}
 
 
-
+Usability:
+- The I beam design makes it much more stiff which is important for a design that is so small
+- The nutcracker is still extremely due to the power of the actuator, which makes it a little unreasonable and none of the drawings are particularly to scale. This design is merely representative of what is best for such a design. For a more realistic design that is longer and over all larger the moment of inertia would need to be much greater.
+- the material is very reasonable for such a design, but if it needed to be stiffer, steel is a great option, but since the loads are very small aluminum works perfectly. 
 
 
 
