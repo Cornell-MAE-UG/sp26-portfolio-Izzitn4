@@ -3,7 +3,7 @@ layout: project
 title: "NutCracker Deeper Analysis"
 description: Statics Design Project on a nutcracker able to crack a macadamia nut
 technologies: None
-image: /assets/images/Lets make a nutcracker.jpg
+image: /assets/images/Nutcrackertitle2.jpg
 ---
 
 
