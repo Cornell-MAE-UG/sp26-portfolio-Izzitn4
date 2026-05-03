@@ -15,9 +15,10 @@ However, that build was oversimplified. It was assumed that the nutcracker's han
 
 
 These details would be:
--locations of max elastic deformation
--a handle design that allows for a vertical deflection below 2% of its length
--a design that is mass efficient. 
+
+- locations of max elastic deformation
+- a handle design that allows for a vertical deflection below 2% of its length
+- a design that is mass efficient. 
 
 
 Constraints and Input parameters:
