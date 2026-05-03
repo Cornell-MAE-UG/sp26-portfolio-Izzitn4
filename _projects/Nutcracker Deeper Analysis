@@ -17,7 +17,6 @@ These details would be:
 -a design that is mass efficient. 
 
 Constraints and Input parameters:
-The typical hardness of a macadamia nut is 222.18kg (+/-) 18.54kg and the average diameter is 25mm.
 Here is the previous design:
 ![Nutcracker design analysis]({{ "/assets/images/Powered_Nutcracker.png" | relative_url }}){: .inline-image-r style="width: 250px"}
 
@@ -30,6 +29,8 @@ Material and cross-section constraints:
 Deflection Limit** | $0.02 \times 44.53 \text{ mm}$ | $\le 0.89 \text{ mm}$ |
 Mass efficiency
 
+_______________________________________________________________________________________________________________________________________________________________________________________________
+
 When it comes to the elastic deformation in the nutcracker, based on the loads, we can assume the max would be in the top lever. To simplify the problem for calculations, we can think of the top lever as a cantilever due to the bolt acting as a fixed support against rotation once the nut resists. 
 The loading is as shown:
 ![Nutcracker design analysis]({{ "/assets/images/elastic load in nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 250px"}
@@ -38,11 +39,10 @@ Based on these assumptions, we can say that the max deformation is likely to be 
 If we were looking to calculate this, we must use superposition, which would mean combining the deformations from both major loads. 
 $$\delta_{total} = \frac{F_{act} L^3}{3EI} - \frac{F_{nut} a^2}{6EI}(3L - a)$$
 
+_______________________________________________________________________________________________________________________________________________________________________________________________
 
-
-
-This design is incredibly small, powerful, and to some degree unnecessary. It is possible to have a less powerful linear actuator, but it is nice to have such a fast machine. As for its actual usabilty it must be connected to a base that not only holds the actuator but the nutcracker itself, making it more reasonable to just use the handheld.
-
+Material selection:
+This one is a tough decision
 
 
 
