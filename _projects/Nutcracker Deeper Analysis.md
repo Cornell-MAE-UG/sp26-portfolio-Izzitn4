@@ -94,7 +94,7 @@ In real life the whole beam cannot be this shape reasonably. This means that the
 
 Assuming moment balance, the Force of the linear actuator at that point is about 1467N which gives us a target moment of inertia of 220mm^4 to stop the tip from dipping below .89mm
 
-![Nutcracker design analysis]({{ "/assets/images/final_crosssection_design_nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
+![Nutcracker design analysis]({{ "/assets/images/final_crosssection_design_nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 1000px"}
 
 
 
