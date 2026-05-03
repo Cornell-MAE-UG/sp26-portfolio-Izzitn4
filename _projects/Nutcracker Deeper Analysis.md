@@ -33,7 +33,7 @@ Force of nut = 2178.9N
 
 
 Material and cross-section constraints:
-Deflection Limit** | $0.02 \times 44.53 \text{ mm}$ | $\le 0.89 \text{ mm}$ |
+Deflection Limit | $0.02 \times 44.53 \text{ mm}$ | $\le 0.89 \text{ mm}$ |
 Mass efficiency
 
 
