@@ -26,16 +26,15 @@ Here is the previous design:
 ![Nutcracker design analysis]({{ "/assets/images/Powered_Nutcracker.png" | relative_url }}){: .inline-image-r style="width: 250px"}
 
 
-Design parameters:
+Design parameters 
+L = 44.53mm
+a = 30mm
+Force of nut = 2178.9N
 
-- $L = 44.53\ \text{mm}$
-- $a = 30\ \text{mm}$
-- $F_{nut} = 2178.9\ \text{N}$
 
 Material and cross-section constraints:
-
-- Deflection limit: $\delta_{\text{limit}} = 0.02 \times 44.53\ \text{mm} = 0.89\ \text{mm}$
-- Mass efficiency
+Deflection Limit** | $0.02 \times 44.53 \text{ mm}$ | $\le 0.89 \text{ mm}$ |
+Mass efficiency
 
 
 ____________________________________________________________________________________________________________________________________
@@ -48,23 +47,11 @@ The loading is as shown:
 Based on these assumptions, we can say that the max deformation is likely to be at the free end of the lever because the actuator's force will likely be stronger and cause a greater vertical displacement. 
 
 
-If we were looking to calculate this, we must use superposition, which would mean combining the deformations from both major loads.
+If we were looking to calculate this, we must use superposition, which would mean combining the deformations from both major loads. 
+$$\delta_{total} = \frac{F_{act} L^3}{3EI} - \frac{F_{nut} a^2}{6EI}(3L - a)$$
 
-$$
-\delta_{\text{total}} = \frac{F_{\text{act}}\,L^{3}}{3 E I} - \frac{F_{\text{nut}}\,a^{2}}{6 E I} (3L - a)
-$$
 
-To satisfy the deflection limit, we require $\delta_{\text{total}} \le \delta_{\text{limit}}$. Solving for the required second moment of area gives:
-
-$$
-I \ge \frac{1}{\delta_{\text{limit}}}
-\left(
-  \frac{F_{\text{act}}\,L^{3}}{3 E}
-  - \frac{F_{\text{nut}}\,a^{2}}{6 E} (3L - a)
-\right)
-$$
-
----
+__________________________________________________________________________________________________________________________________
 
 Material selection:
 There are two major things to consider when it comes to material for the nutcracker: the material type and shape.
@@ -79,24 +66,10 @@ Shape: The most mass-efficient shape would be an I beam or a rectangular tube. S
 Those choices are the most reasonable when only thinking of using hands to push down. If the design were handheld, I would personally choose the U-channel because of its nice grip, light weight, and less harm if the load is off-center. 
 This design uses a linear actuator, which widens our selection choices to include the more efficient designs, allowing us to go for a shape that is the most efficient, the I-beam. 
 
-__________________________________________________________________________________________________________________________________
 
-Realistic design:
-In order to make this design functional we need to think about combining a lot of different ideas. The final shape of the cross section would be an I beam since it concentrated material in the flanges at the top and bottom in order to resist bending. 
-
-Based on our calculations earlier, this is the moment of inertia constraint we have 
-
-$$ I \le \frac{1}{\delta_{limit}} (\frac{F_{act} L^3}{3EI} - \frac{F_{nut} a^2}{6EI}(3L - a))$$
-
-And our I beam moment of inertia is $$ I = \frac{bh^3}{12}$$
-
-In real life the whole beam cannot be this shape reasonably. This means that the design needs the counter the non uniform bending moment. The best way to do this is to taper the end, starting with a thicker more mass efficient design near the nut and tapered near the end as it gets to the linear actuator. 
-
-Assuming moment balance, the Force of the linear actuator at that point is about 1467N which gives us a target moment of inertia of 220mm^4 to stop the tip from dipping below .89mm
-
-![Nutcracker design analysis]({{ "/assets/images/final_crosssection_design_nutcracker.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
+____________________________________________________________________________________________________________________________________
 
 
 
 Information on Macadamia nuts found at: 
-Schrauf, C., Huber, L. & Visalberghi, E. Do capuchin monkeys use weight to select hammer tools?. Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2 
+Schrauf, C., Huber, L. & Visalberghi, E. Do capuchin monkeys use weight to select hammer tools?. Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2
